@@ -5,7 +5,6 @@ import css from "./SearchBox.module.css";
 const SearchBox = () => {
 	const dispatch = useDispatch();
 	const filter = useSelector(state => state.filters.name);
-	console.log("SearchBox ~ filter:", filter);
 
 	const onChangeFilter = event => {
 		dispatch(changeFilter(event.target.value));
