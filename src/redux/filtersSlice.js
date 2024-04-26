@@ -3,7 +3,7 @@ import { initialState } from "./contactsSlice";
 
 const filtersSlice = createSlice({
 	// Ім'я слайсу
-	name: "tastfilter",
+	name: "filters",
 	// Початковий стан редюсера слайсу
 	initialState,
 	// Об'єкт редюсерів

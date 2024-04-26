@@ -11,7 +11,7 @@ export const initialState = {
 
 const contactsSlice = createSlice({
 	// Ім'я слайсу
-	name: "tasks",
+	name: "contacts",
 	// Початковий стан редюсера слайсу
 	initialState,
 	// Об'єкт редюсерів
